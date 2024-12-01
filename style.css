@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    font-family: montserrat;
+}
+
+.content{
+    width: 25%;
+    /* text-align: center; */
+    background-color: brown;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top i{
+    font-size: 22px;
+}
+
+.top img{
+    width: 50px;
+}
+
+.head h2{
+    margin-top: 2.3vw;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.para p{
+    font-size: 14px;
+    font-family: poppins;
+    margin-top: 2vw;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    margin-top: 15px;
+}
+
+.text1 input[type=text]{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    font-family: Josefin sans;
+}
+
+.text1 input[type=number]{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    font-family: Josefin sans;
+}
+
+.text1 input[type=date]{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    font-family: Josefin sans;
+}
+
+.text1{
+    padding: 5px 0;
+}
+
+.text1 label{
+    font-family: Josefin sans;
+    font-size: 18px;
+}
+
+.star {
+    margin-top: 1.5vw;
+    text-align: center;
+}
+
+.star i{
+    font-size: 30px;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.star p{
+    margin-top: 10px;
+}
+
+.star textarea{
+    width: 100%;
+    height: 150px;
+    padding: 8px 10px;
+    font-family: Josefin sans;
+}
+
+.input{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.input label{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.input input[type=number]{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+.content button{
+    padding: 10px 0;
+    margin-top: 15px;
+    font-family: poppins;
+    font-size: 13px;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
